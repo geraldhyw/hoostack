@@ -103,11 +103,13 @@ Create `.claude/skills/<slug>/SKILL.md` using `.claude/skills/ditto/templates/pe
 - Core beliefs: the 5–10 ideas that drive most of their advice.
 - Keep SKILL.md lean. Detail belongs in `references/`.
 
-## 6. Update the roster
+## 6. Update the roster (optional)
 
-Add a row to the `## Personas` table at the bottom of `CLAUDE.md`:
+If the project's `CLAUDE.md` has a `## Personas` table, add a row to it:
 
 `| /<slug> | <who/what, one line> | <best for> | <today> |`
+
+Otherwise skip this step. Don't create `CLAUDE.md` or the table.
 
 ## 7. Report
 
@@ -116,4 +118,4 @@ Tell the user briefly:
 - What was captured: the core frameworks (names only) and main topics.
 - How many sources, and how many were Tier 1.
 - Known gaps, with a suggestion like `/ditto-refresh <slug> <topic>` to fill one.
-- A reminder to fill in `me.md` if it still has placeholders, so advice is tailored.
+- If `me.md` is missing or still has placeholders: a tip that a `me.md` in the project root describing their situation, goals and constraints lets every persona tailor its advice.

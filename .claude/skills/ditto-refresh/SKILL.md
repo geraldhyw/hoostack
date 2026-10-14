@@ -34,7 +34,7 @@ No gap-fill round. If little new material turns up, that's a valid result.
 - Update the **What I believe** section of the persona's `SKILL.md` only if a core belief meaningfully changed.
 - Recency refresh: set `last_refreshed` to today. Topic deep-dive: leave `last_refreshed` alone, since it didn't check all recent material.
 - Add a line to the **Refresh log** in `sources.md`: `YYYY-MM-DD: <recency refresh | deep-dive: topic> (+N sources)`.
-- Update this persona's row in the `## Personas` table in `CLAUDE.md` (the "Best for" column if it grew, and "Last refreshed" for a recency refresh).
+- If the project's `CLAUDE.md` has a `## Personas` table with a row for this persona, update it (the "Best for" column if it grew, and "Last refreshed" for a recency refresh). Otherwise skip this.
 
 ## 4. Report
 
